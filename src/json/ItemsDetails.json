@@ -1,0 +1,92 @@
+[
+    {
+        "id": 0,
+        "img": "/aenean-rutrum-tincidunt.jpg",
+        "hoverImg": "/aenean-rutrum-tincidunt (1).jpg",
+        "name": "Donec fringilla ipsum",
+        "price": 20.30,
+        "discount": 29.00,
+        "rating": 3
+    },
+    {
+        "id": 1,
+        "img": "/donec-tincidunt-eros.jpg",
+        "hoverImg": "/donec-tincidunt-eros (1).jpg",
+        "name": "Donec vitae ipsum",
+        "price": 29.00,
+        "discount": 20.33,
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "img": "/donec-vitae-ipsum.jpg",
+        "hoverImg": "/donec-vitae-ipsum (1).jpg",
+        "name": "Phasellus tellus quam",
+        "price": 11.90,
+        "discount": 2.99,
+        "rating": 0
+    },
+    {
+        "id": 3,
+        "img": "/nulla-et-congue.jpg",
+        "hoverImg": "/nulla-et-congue (1).jpg",
+        "name": "Praesent sed eros",
+        "price": 18.90,
+        "discount": 0,
+        "rating": 1
+    },
+    {
+        "id": 4,
+        "img": "/orci-varius-natoque.jpg",
+        "hoverImg": "/orci-varius-natoque (1).jpg",
+        "name": "Nulla et congue`",
+        "price": 19.12,
+        "discount": 0,
+        "rating": 5
+    },
+    {
+        "id": 5,
+        "img": "/orci-varius-natoque.jpg",
+        "hoverImg": "/orci-varius-natoque (1).jpg",
+        "name": "Proin facilisis velit",
+        "price": 35.90,
+        "discount": 0.4,
+        "rating": 2
+    },
+    {
+        "id": 6,
+        "img": "/phasellus-tellus-quam.jpg",
+        "hoverImg": "/phasellus-tellus-quam (1).jpg",
+        "name": "Orci varius natoque",
+        "price": 29.33,
+        "discount": 2.56,
+        "rating": 1
+    },
+    {
+        "id": 7,
+        "img": "/praesent-sed-eros.jpg",
+        "hoverImg": "/praesent-sed-eros (1).jpg",
+        "name": "Donec tincidunt eros",
+        "price": 11.80,
+        "discount": 0.4,
+        "rating": 0
+    },
+    {
+        "id": 8,
+        "img": "/proin-facilisis-velit.jpg",
+        "hoverImg": "/proin-facilisis-velit (1).jpg",
+        "name": "Proin vitae felis",
+        "price": 11.46,
+        "discount": 1.4,
+        "rating": 1
+    },
+    {
+        "id": 9,
+        "img": "/proin-vitae-felis.jpg",
+        "hoverImg": "/proin-vitae-felis (1).jpg",
+        "name": "Aenean rutrum tincidunt",
+        "price": 18.93,
+        "discount": 2.3,
+        "rating": 4
+    }
+]

@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply font-sans
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  margin: 0 20px;
+  transform: translateY(-50%);
+  border-radius: 50%;  
+  width: 40px;
+  height: 40px;
+}
+
+carousel-
+
+.carousel-indicators [data-bs-target] {
+  background-color: #ff6347; /* ডটগুলোর ডিফল্ট ব্যাকগ্রাউন্ড রঙ */
+  width: 12px; /* ডটের প্রস্থ */
+  height: 12px; /* ডটের উচ্চতা */
+  border-radius: 50%; /* গোলাকার ডট */
+  border: 1px solid #fff; /* সাদা বর্ডার */
+  margin: 0 5px; /* ডটগুলোর মাঝে কিছু জায়গা */
+}
+.carousel-indicators [aria-current]{
+    background-color: red;
+}
+/* অ্যাকটিভ ডটের জন্য স্টাইল */
+.carousel-indicators .active {
+  background-color: #ff0000; /* অ্যাকটিভ ডটের রঙ */
+  width: 10px; /* অ্যাকটিভ ডট বড় */
+  height: 10px; /* অ্যাকটিভ ডটের উচ্চতা */
+  position: relative;
+  bottom: 5px;
+}
+.img{
+  opacity: 0.5;
+}
+.img:hover{
+  opacity: 1;
+}
+.-mt-52::after{
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+}
+.position{
+  animation: scrollAnime 0.8s linear;
+}
+@keyframes scrollAnime {
+  0%{transform: translateY(-200px);}
+  100%{transform: translateY(0px);}
+}
+.scrollBar::-webkit-scrollbar{
+  display: none;
+}
+.active{
+  color: red;
+}
